@@ -51,15 +51,15 @@ ANNs mimic the human brain by using artificial neurons and synapses.
 A Deep Neural Network or DNN has a structure similar to an artificial neural network, but it has two or more “hidden layers” of neurons that process inputs.
 Each neuron accepts part of the input and passes it through the activation function.
 
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/5-Deep-Neural-Networks1.png)
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/5-Deep-Neural-Networks2.png)
+![](images/5-Deep-Neural-Networks1.png)
+![](images/5-Deep-Neural-Networks2.png)
 
 
 ## 6- Classifier
 
 A classifier is an algorithm that maps the input data to a specific category. Basically, a classifier is the rules used by the neural network to classify data. 
 
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/6-Classifier.png)
+![](images/6-Classifier.png)
 
  
 ## 7- Classification Problems
@@ -74,7 +74,7 @@ Given an example, classify if it is spam or not.
 Given a handwritten character, classify it as one of the known characters.
 Given recent user behavior, classify as churn or not.
 
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/7-Classification-Problems.png)
+![](images/7-Classification-Problems.png)
 
 
 ## 8- Binary Classification
@@ -87,7 +87,7 @@ Email spam detection (spam or not)
 Churn prediction (churn or not)
 Conversion prediction (buy or not)
 
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/8-Binary-Classification.png)
+![](images/8-Binary-Classification.png)
 
 
 ## 9- Multi-Class Classification
@@ -100,7 +100,7 @@ Face classification.
 Plant species classification.
 Optical character recognition.
 
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/9-Multi-Class-Classification.png)
+![](images/9-Multi-Class-Classification.png)
 
 
 ## 10- Label Encoding
@@ -136,7 +136,7 @@ horse → 4
 
 Used in classification and bag of words. The label for each example is all 0s, except for a 1 at the index of the actual class to which the example belongs.
 
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/11-One-Hot-Encoding.png)
+![](images/11-One-Hot-Encoding.png)
 
 
 ## 12- Linear regression
@@ -154,9 +154,9 @@ Logistic regression is a statistical method used for a binary classification pro
 
 Logistic regression takes an input, passes it through a function called sigmoid function then returns an output of probability between 0 and 1.
 
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/13-Logistic-Regression1.png)
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/13-Logistic-Regression2.png)
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/13-Logistic-Regression3.png)
+![](images/13-Logistic-Regression1.png)
+![](images/13-Logistic-Regression2.png)
+![](images/13-Logistic-Regression3.png)
 
 
 ## 14- Nonlinear Function
@@ -175,16 +175,16 @@ It takes in the input from each neuron and transforms it into an output, usually
 
 A step function is a classic (discrete) activation function used in neural networks which has a binary input.
 
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/16-Step-Function1.png)
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/16-Step-Function2.png)
+![](images/16-Step-Function1.png)
+![](images/16-Step-Function2.png)
 
 
 ## 17- Sigmoid Function
 
 The sigmoid function is a continuous activation function that has a smooth gradient and outputs values between zero and one. For very high or low values of the input parameters, the network can be very slow to reach a prediction, called the vanishing gradient problem.
 
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/17-Sigmoid-Function1.png)
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/17-Sigmoid-Function2.png)
+![](images/17-Sigmoid-Function1.png)
+![](images/17-Sigmoid-Function2.png)
 
 
 ## 18- Softmax Function
@@ -196,19 +196,19 @@ Softmax is a special activation function use for output neurons layer. It normal
 
 The TanH fnuction is zero-centered making it easier to model inputs that are strongly negative strongly positive or neutral.
 
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/19-TanH.png)
+![](images/19-TanH.png)
 
 
 ## 20- Rectified Linear Unit (ReLU) function
 
 The ReLu function is highly computationally efficient but is not able to process inputs that approach zero or negative.
 
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/20-ReLU.png)
+![](images/20-ReLU.png)
 
 
 ## 21- N-Dimensions
 
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/21-N-Dimensions.png)
+![](images/21-N-Dimensions.png)
 
 
 ## 22- Random initialzation 
@@ -223,7 +223,7 @@ In an ANN, each neuron in a layer and is connected to each neuron in the next la
 
 Weights control the signal (or the strength of the connection) between two neurons. In other words, a weight decides how much influence the input will have on the output.
 
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/23-Weight.png)
+![](images/23-Weight.png)
 
 
 ## 24- Bias
@@ -262,14 +262,14 @@ For example if BatchSize is 100 and data size is 1,000 an epoch will have 10 ite
 
 ## 29- Probability
 
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/29-Probability1.png)
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/29-Probability2.png)
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/29-Probability3.png)
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/29-Probability4.png)
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/29-Probability5.png)
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/29-Probability6.png)
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/29-Probability7.png)
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/29-Probability8.png)
+![](images/29-Probability1.png)
+![](images/29-Probability2.png)
+![](images/29-Probability3.png)
+![](images/29-Probability4.png)
+![](images/29-Probability5.png)
+![](images/29-Probability6.png)
+![](images/29-Probability7.png)
+![](images/29-Probability8.png)
 
 
 ## 30- Cross-Entropy
@@ -278,10 +278,10 @@ Cross-entropy loss, or log loss, measures the performance of a classification mo
 
 A perfect model would have a log loss of 0.
 
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/30-Cross-Entropy1.png)
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/30-Cross-Entropy2.png)
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/30-Cross-Entropy3.png)
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/30-Cross-Entropy4.png)
+![](images/30-Cross-Entropy1.png)
+![](images/30-Cross-Entropy2.png)
+![](images/30-Cross-Entropy3.png)
+![](images/30-Cross-Entropy4.png)
 
 
 ## 31- Error Function
@@ -290,9 +290,9 @@ The error function (also called the loss or cost function) calculates the error,
 
 When training the model, the objective is to minimize the error function and bring output as close as possible to the correct value.
 
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/31-Error-Function1.png)
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/31-Error-Function2.png)
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/31-Error-Function3.png)
+![](images/31-Error-Function1.png)
+![](images/31-Error-Function2.png)
+![](images/31-Error-Function3.png)
 
 
 ## 32- Learning Rate
@@ -307,8 +307,8 @@ A learning rate that is too large can cause the model to converge too quickly to
 
 The challenge of training deep learning neural networks involves carefully selecting the learning rate. It may be the most important hyperparameter for the model.
 
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/32-Learning-Rate1.png)
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/32-Learning-Rate2.png)
+![](images/32-Learning-Rate1.png)
+![](images/32-Learning-Rate2.png)
 
 
 ## 33- Gradient Descent
@@ -319,10 +319,10 @@ Descending a gradient has two aspects: choosing the direction to step in (moment
 
 Stochastic is simply a synonym for “random.” A stochastic process is a process that involves a random variable, such as randomly initialized weights. 
 
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/33-Gradient-Descent1.png)
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/33-Gradient-Descent2.png)
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/33-Gradient-Descent3.png)
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/33-Gradient-Descent4.png)
+![](images/33-Gradient-Descent1.png)
+![](images/33-Gradient-Descent2.png)
+![](images/33-Gradient-Descent3.png)
+![](images/33-Gradient-Descent4.png)
 
 
 ## 34- Derivative
@@ -343,8 +343,8 @@ For a curve there can be more than one local minima, but it does have only one g
 
 In gradient descent, these local and global minima are useed in order to decrease the loss functions.
 
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/36-Global-Minimum1.png)
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/36-Global-Minimum2.png)
+![](images/36-Global-Minimum1.png)
+![](images/36-Global-Minimum2.png)
 
 
 ## 37- Momentum
@@ -353,14 +353,14 @@ Momentum is a very popular technique that is used along with gradient descent. I
 
 Beside others, momentum is known to speed up learning and to help not getting stuck in local minima.
 
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/37-Momentum.png)
+![](images/37-Momentum.png)
 
 
 ## 38- Feedforward
 
 The forward pass takes the inputs, passes them through the network, and allows each neuron to react to a fraction of the input. Neurons generate their outputs and pass them on to the next layer, until eventually the network generates an output or a prediction.
 
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/38-Feedforward.png)
+![](images/38-Feedforward.png)
 
 
 ## 39- Backpropagation
@@ -369,11 +369,11 @@ The algorithm is used to effectively train a neural network through a method cal
 
 Backpropagation tracks the derivatives of the activation functions in each successive neuron, to find weights that brings the loss function to a minimum (gradient descent), which will generate the best prediction. 
 
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/39-Backpropagation1.png)
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/39-Backpropagation2.png)
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/39-Backpropagation3.png)
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/39-Backpropagation4.png)
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/39-Backpropagation5.png)
+![](images/39-Backpropagation1.png)
+![](images/39-Backpropagation2.png)
+![](images/39-Backpropagation3.png)
+![](images/39-Backpropagation4.png)
+![](images/39-Backpropagation5.png)
 
 
 ## 40- Prediction
@@ -383,14 +383,14 @@ Prediction refers to the output of an algorithm after it has been trained on a h
 
 ## 41- Discrete Predictions
 
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/41-Discrete-Predictions1.png)
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/41-Discrete-Predictions2.png)
+![](images/41-Discrete-Predictions1.png)
+![](images/41-Discrete-Predictions2.png)
 
 
 ## 42- Continuous Predictions 
 
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/42-Continuous-Predictions1.png)
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/42-Continuous-Predictions2.png)
+![](images/42-Continuous-Predictions1.png)
+![](images/42-Continuous-Predictions2.png)
 
 
 ## 43- Inputs
@@ -427,7 +427,7 @@ A hyperparameter is a setting that affects the structure or operation of the neu
 
 Common hyperparameters include the number of hidden layers, the activation function, and how many times training should be repeated (epochs). Different values of hyperparameters can have a major impact on the performance of the network.
 
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/48-Hyperparameter.png)
+![](images/48-Hyperparameter.png)
 
 
 ## 49- Maximum Likelihood
@@ -441,18 +441,18 @@ The objective of Maximum Likelihood Estimation is to find the set of parameters 
 
 Underfitting is a high bias and low variance problem, happens when the neural network is not able to accurately predict for the training set, not to mention for the validation set.
 
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/50-Underfitting1.png)
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/50-Underfitting2.png)
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/50-Underfitting3.png)
+![](images/50-Underfitting1.png)
+![](images/50-Underfitting2.png)
+![](images/50-Underfitting3.png)
 
 
 ## 51- Overfitting
 
 Overfitting is a low bias and high variance problem, happens when the neural network is good at learning its training set, but is not able to generalize its predictions to additional, unseen examples. 
 
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/51-Overfitting1.png)
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/51-Overfitting2.png)
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/51-Overfitting3.png)
+![](images/51-Overfitting1.png)
+![](images/51-Overfitting2.png)
+![](images/51-Overfitting3.png)
 
 
 ## 52- Generalization
@@ -472,34 +472,34 @@ Regularization is a technique which makes slight modifications to the learning a
 
 It works by adding a term to the error function equation, intended to decrease the weights and biases, smooth outputs and make the network less likely to overfit.
 
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/53-Regularization.png)
+![](images/53-Regularization.png)
 
 
 ## 54- Dropout
 
 Dropout is a hyperparameter used for regularization in neural networks. Like all regularization techniques, its purpose is to prevent overfitting. Dropout randomly makes nodes in the neural network “drop out” by setting them to zero, which encourages the network to rely on other features that act as signals. That, in turn, creates more generalizable representations of data.
 
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/54-Dropout1.png)
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/54-Dropout2.png)
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/54-Dropout3.png)
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/54-Dropout4.png)
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/54-Dropout5.png)
+![](images/54-Dropout1.png)
+![](images/54-Dropout2.png)
+![](images/54-Dropout3.png)
+![](images/54-Dropout4.png)
+![](images/54-Dropout5.png)
 
 
 ## 55- Early stopping
 
 A common method to avoid overfitting in neural networks. Early stopping training the network, monitoring the error on the validation set after each iteration, and stopping training when the network starts to overfit the data (when the test error starts to increase).
 
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/55-Early-stopping1.png)
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/55-Early-stopping2.png)
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/55-Early-stopping3.png)
+![](images/55-Early-stopping1.png)
+![](images/55-Early-stopping2.png)
+![](images/55-Early-stopping3.png)
 
 
 ## 56- Accuracy
 
 Accuracy is a metric that generally describes how the model performs across all classes. It is useful when all classes are of equal importance. It is calculated as the ratio between the number of correct predictions to the total number of predictions.
 
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/56-Accuracy.png)
+![](images/56-Accuracy.png)
 
 
 ## 57- Precision
@@ -507,7 +507,7 @@ Accuracy is a metric that generally describes how the model performs across all 
 Precision is a metric that calculated as the ratio between the number of Positive samples correctly classified to the total number of samples classified as Positive (either correctly or incorrectly). 
 The precision measures the model's accuracy in classifying a sample as positive.
 
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/57-Precision.png)
+![](images/57-Precision.png)
 
 
 ## 58- Recall
@@ -516,11 +516,11 @@ The recall is a metric that calculated as the ratio between the number of Positi
 The recall measures the model's ability to detect Positive samples. 
 The higher the recall, the more positive samples detected.
 
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/58-Recall.png) 
+![](images/58-Recall.png) 
 
 
 ## 59- MNIST
 
 MNIST is the “hello world” of deep-learning datasets, stands for “Modified National Institute of Standards and Technology.” Everyone uses MNIST to test their neural networks, just to see if the net actually works at all. MNIST contains 60,000 training examples and 10,000 test examples of the handwritten numerals 0-9. These images are 28x28 pixels, which means they require 784 nodes on the first input layer of a neural network.
 
-![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/59-MNIST.png) 
+![](images/59-MNIST.png) 
