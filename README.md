@@ -281,6 +281,7 @@ A perfect model would have a log loss of 0.
 ![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/30-Cross-Entropy1.png)
 ![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/30-Cross-Entropy2.png)
 ![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/30-Cross-Entropy3.png)
+![](Udacity-Intro-to-Deep-Learning-Introduction-to-Neural-Network/images/30-Cross-Entropy4.png)
 
 
 ## 31- Error Function
